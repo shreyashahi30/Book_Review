@@ -1,0 +1,40 @@
+/* src/components/BookDetail.css */
+.book-detail {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-cover {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.book-title {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.book-author {
+    color: #7f8c8d;
+}
+
+.book-description {
+    margin: 10px 0;
+}
+
+.review-button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review-button:hover {
+    background-color: #2980b9;
+}
